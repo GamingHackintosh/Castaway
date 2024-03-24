@@ -343,3 +343,31 @@ main {
     color: rgba(255, 255, 255, 0.7);
     margin-top: 20px;
 }
+
+
+/*=== НИЗ ===*/
+.Footer_section {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.Footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer_logo_soc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 224px;
+}
+.Footer_soc {
+    display: flex;
+    gap: 20px;
+}
+
+.Footer_Nav_List {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
