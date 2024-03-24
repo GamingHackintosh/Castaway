@@ -366,8 +366,30 @@ main {
     gap: 20px;
 }
 
+
+.Footer_Nav {
+    display: flex;
+    flex-direction: row;
+}
 .Footer_Nav_List {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.Footer_Nav_List-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Footer_Nav_List-more {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.Footer_listen_social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
