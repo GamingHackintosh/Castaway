@@ -191,6 +191,8 @@ main {
     margin-top: 30px;
 }
 .latest_card-btn {
+    width: auto;
+    height: 29px;
     display: inline-block;
     margin-top: 20px;
     padding: 12px 18px;
@@ -274,4 +276,61 @@ main {
     letter-spacing: 2.90px;
     color: #fff;
     max-width: 700px;
+}
+
+.subscription-form_subtitle {
+    margin-bottom: 20px;
+}
+
+/*=== Поля ввода (инпуты) ===*/
+.subscription-form_NAME {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    background: #191919;
+}
+.subscription-form_EMAIL {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    background: #191919;
+}
+
+/*=== Отзывы ===*/
+.Feedback_section {
+    margin-top: 200px;
+}
+.Feedback_card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Feedback_rating {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 32px;
+    text-align: left;
+}
+
+.Feedback_title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    color: #fff;
+    max-width: 310px;
+    margin-top: 20px;
+}
+.Feedback_subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
 }
