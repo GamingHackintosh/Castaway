@@ -303,20 +303,29 @@ main {
 /*=== Отзывы ===*/
 .Feedback_section {
     margin-top: 200px;
-}
-.Feedback_card {
-    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    display: flex;
 }
 
-.Feedback_rating {
+.Feedback {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Feedback_card {
     background: #000;
     display: flex;
     flex-direction: column;
     padding: 50px;
     border-radius: 32px;
     text-align: left;
+}
+
+.Feedback_rating ul {
+    display: flex;
+    flex-direction: row;
 }
 
 .Feedback_title {
