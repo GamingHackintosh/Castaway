@@ -38,7 +38,7 @@ main {
     color: #fff;
     transition: all .3s;
 }
-.nav_link:hover:not(.nav_link-active) {
+.nav_link:hover {
     color: #118DA8;
 }
 
